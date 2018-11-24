@@ -20,7 +20,7 @@ export class HttpService {
   getParams(): HttpParams {
     const uid = this.authService.user.uid;
     const query = {'userId': uid};
-    return new HttpParams().set('apiKey', 'ejxsM6UOkEfaT_jGQSrYFryTD1Iw1ZiI')
+    return new HttpParams().set('apiKey', '')
     .append('q', JSON.stringify(query));
   }
 
