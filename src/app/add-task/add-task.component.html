@@ -1,0 +1,5 @@
+<div class="task__add">
+    <label for="task">Zadanie</label>
+    <input type="text" name="task" id="task" (keyup.enter)="addTask()" [(ngModel)]="newTask">
+    <a class="waves-effect waves-light btn" (click)="addTask()">Dodaj zadanie</a>
+</div>

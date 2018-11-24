@@ -1,0 +1,6 @@
+<div class="container">
+<ul class="todo__done">
+    <ng-container>Zadania wykonane: {{doneList.length}}</ng-container>
+    <li appChecked appDate [date]="item.end" *ngFor="let item of doneList">{{item.name}}</li>
+</ul>
+</div>
