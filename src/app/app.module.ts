@@ -21,7 +21,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
 const config = {
-  apiKey: "AIzaSyA_6Swk0WhvfAttMOrJjbyaL6glUW_G9aQ",
+  apiKey: "",
   authDomain: "todoapp-f0d41.firebaseapp.com",
   databaseURL: "https://todoapp-f0d41.firebaseio.com",
   projectId: "todoapp-f0d41",
